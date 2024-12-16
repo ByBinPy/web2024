@@ -1,0 +1,160 @@
+/* Импорт шрифта Poppins из Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Общие стили для всех элементов */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffd1dc; /* Светло-розовый фон для основного тела сайта */
+    color: #4a4a4a; /* Сочетающийся мягкий темно-серый */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стили для header */
+header {
+    position: relative; /* Для размещения дочерних элементов */
+    background: linear-gradient(to bottom, #b3e0ff, #ffd1dc); /* Градиент от светло-синего к светло-розовому */
+    text-align: center;
+    padding: 0;
+}
+.cute_logo {
+    z-index: 2;
+}
+.cute_head {
+    position: relative;
+    color: #663300; /* Сочетание с градиентом */
+    font-size: 36px;
+    margin: 0;
+    top: -36px; /* Поднимаем на 10 пикселей вверх */
+}
+
+
+/* Стили для дополнительных элементов в header */
+header div {
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #4a4a4a;
+}
+
+/* Общие стили для всех параграфов */
+p {
+    font-size: 18px;
+    color: #663300;
+    line-height: 1.8;
+    text-align: justify;
+    margin: 15px 0;
+}
+
+/* Галерея изображений */
+main div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+main div img {
+    margin: 10px;
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили для текста под изображениями */
+main div figcaption {
+    font-size: 16px;
+    color: #F5AC5D;
+    margin-top: 5px;
+}
+
+/* Стили для article */
+article img {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили для навигационного меню */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #663300;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #F5AC5D;
+}
+
+/* Стили для разделов main */
+main {
+    padding: 20px;
+    background-color: #ffd1dc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main h2, main h3 {
+    color: #cc6600;
+}
+
+/* Стили для footer */
+footer {
+    background: linear-gradient(to top, #b3e0ff, #ffd1dc);
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 5px 0;
+    color: #4a4a4a;
+}
+
+footer em, footer strong {
+    color: #663300;
+}
+
+/* Стили для кнопок */
+button {
+    background-color: rgba(227, 68, 136, 0.85);
+    color: #000000;
+    border: none;
+    padding: 10px 60px 10px 40px; /* Увеличиваем левое отступы, чтобы текст не перекрывался с изображением */
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    /* Добавляем изображение для кнопки */
+    background-image: url('img1/corgi_button.png');
+    background-size: contain; /* Чтобы изображение поместилось в кнопке */
+    background-repeat: no-repeat;
+    background-position: right center; /* Изображение справа по центру */
+}
+
+button:hover {
+    background-color: #99cce6;
+}
+
+
+button:hover {
+    background-color: #99cce6;
+}
+
+button:hover {
+    background-color: #99cce6;
+}
