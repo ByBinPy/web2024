@@ -251,9 +251,9 @@ section#partners ul li {
 
 
 .swiper-container {
-    width: 100%;
+    width: 80%;
     max-width: 800px;
-    height: 500px;
+    height: 400px;
     margin: 20px auto;
     border-radius: 10px;
     overflow: hidden;
@@ -267,23 +267,18 @@ section#partners ul li {
 }
 
 .swiper-slide img {
-    width: 50%;
-    height: 50%;
-    object-fit: cover;
+    width: 80%;
+    height: 80%;
+    object-fit: scale-down;
     border-radius: 10px;
 }
 
-.swiper-slide img {
-    margin: 0;
-    max-width: none;
-    box-shadow: none;
-}
 
 .swiper-slide img:hover {
     box-shadow: none;
 }
 .swiper-slide img {
-    width: 50%;
-    height: 50%;
+    width: 80%;
+    height: 80%;
     object-fit: cover;
 }

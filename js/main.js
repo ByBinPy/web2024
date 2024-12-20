@@ -132,28 +132,21 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 document.addEventListener('DOMContentLoaded', function () {
     const swiper = new Swiper('.swiper-container', {
-        loop: true,
-        slidesPerView: 1,
-        spaceBetween: 30,
-
-        allowTouchMove: true,
-        simulateTouch: true,
-        grabCursor: true,
-
-        mousewheel: {
-            forceToAxis: true,
-            sensitivity: 1,
-            releaseOnEdges: true,
+        loop: true, // Зацикливание слайдов
+        autoplay: {
+            delay: 3000, // Автопрокрутка каждые 3 секунды
         },
-
-        effect: 'slide',
-
         pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
+            el: '.swiper-pagination', // Элемент для пагинации
+            clickable: true, // Делаем точки кликабельными
         },
-
-        navigation: false,
+        navigation: {
+            nextEl: '.swiper-button-next', // Кнопка вперед
+            prevEl: '.swiper-button-prev', // Кнопка назад
+        },
+        slidesPerView: 1,
+        spaceBetween: 10,
+        effect: 'slide', // Эффект перехода (slide, fade, cube, coverflow)
     });
 });
 
