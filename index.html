@@ -1,146 +1,66 @@
 <!DOCTYPE html>
-<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="keywords" content="корги, продажа корги, купить корги, собаки, питомник корги, партнеры">
-    <meta name="description" content="Интернет-магазин, где можно приобрести милых корги, а также узнать о наших партнерах.">
-    <title>Магазин корги</title>
+    <meta name="keywords" content="корги, каталог, купить корги, собаки">
+    <meta name="description" content="Каталог наших корги с описаниями и фотографиями.">
+    <title>Магазин корги - Каталог</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+    <script src="js/main.js" defer></script>
 </head>
-
 <body>
 <header>
+    <h1 class="cute_head">Площадка продажи корги</h1>
+    <img src="pages/img1/logo.png" alt="logo" width="200" class="cite_logo">
     <div>
         <span>Москва, ул. Лапушкина, д.5 | Телефон: <a href="моб:+71234567890">+7 (123) 456-78-90</a></span>
     </div>
     <nav>
         <ul>
-            <li><a href="#about">О нас</a></li>
-            <li><a href="#catalog">Каталог корги</a></li>
-            <li><a href="#litters">Наши пометы</a></li>
-            <li><a href="#victories">Наши победы</a></li>
-            <li><a href="#partners">Наши партнеры</a></li>
-            <li><a href="#available-puppies">Свободные щенки</a></li>
-            <li><a href="#contact">Контакты</a></li>
+            <li><a href="index.html">О нас</a></li>
+            <li><a href="pages/catalog.html" class="active">Каталог корги</a></li>
+            <li><a href="pages/litters.html">Наши пометы</a></li>
+            <li><a href="pages/partners.html">Наши партнеры</a></li>
+            <li><a href="pages/available_puppies.html">Свободные щенки</a></li>
+            <li><a href="pages/shedule.html">Бронирование фотосессии</a></li>
+
         </ul>
     </nav>
-    <img src="img1/logo.png" alt="logo" width="200" class="cite_logo">
-    <h1 class="cute_head">Площадка продажи корги</h1>
 </header>
-
 <main>
-    <section id="about">
+    <section id="index">
         <h2>О нашем питомнике</h2>
-        <p>Мы занимаемся <strong>профессиональным разведением</strong> корги уже более 10 лет. Наши собаки обладают всеми необходимыми <em>сертификатами здоровья</em> и наградами с выставок.</p>
+        <p>Мы занимаемся <strong>профессиональным разведением</strong> корги уже более 10 лет. Наши собаки обладают
+            всеми необходимыми <em>сертификатами здоровья</em> и наградами с выставок.</p>
     </section>
-
-    <section id="catalog">
-        <h2>Наши корги</h2>
-        <article>
-            <h3>МариЛевс Грегори Хаус</h3>
-            <div>
-                <img src="img1/gary1.jpg" width="300" alt="gary_left">
-                <img src="img1/gary2.jpg" width="300" alt="gary_right">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="pages/img1/puppy_for_about1.png" alt="Small Photo 1">
             </div>
-            <p>Возраст: 3 года</p>
-        </article>
-        <article>
-            <h3>АртРаенс Ромина Аберле</h3>
-            <div>
-                <img src="img1/lessia_1.png" width="300" height="200" alt="lessia_front">
-                <img src="img1/lessia_2.png" width="300" height="200" alt="lessia_shadow">
+            <div class="swiper-slide">
+                <img src="pages/img1/puppy_for_about.jpg" alt="Small Photo 2">
             </div>
-            <p>Возраст: 4 года</p>
-        </article>
-        <article>
-            <h3>АртРаенс Черноморская Звезда</h3>
-            <div>
-                <img src="img1/zvezda1.jpg" width="300" height="200" alt="zvezda_up">
-                <img src="img1/zvezda2.jpg" width="300" height="200" alt="zvezda_down">
+            <div class="swiper-slide">
+                <img src="pages/img1/happy_new_year.jpg" alt="New Year Puppy">
             </div>
-            <p>Возраст: 4 года</p>
-        </article>
-    </section>
-
-    <section id="litters">
-        <h2>Наши пометы</h2>
-        <p>Здесь представлены фотографии наших корги с их щенками. У нас родились самые милые малыши!</p>
-        <h3>Галерея пометов</h3>
-        <div>
-            <img src="img1/indigo_fera_2024.jpg" alt="Индигофера" width="300">
-            <img src="img1/izuminka_v_tirolskom_piroge_2024.jpg" alt="Изюминка В Тирольском Пироге" width="300">
-            <img src="img1/small_corgi_2024.jpg" alt="Чилийский закат" width="300">
-            <img src="img1/small_corgi_2024_2.jpg" alt="Чайная роза" width="300">
+            <div class="swiper-slide">
+                <img src="pages/img1/hollywood.jpg" alt="Hollywood Puppy">
+            </div>
         </div>
-    </section>
-
-    <section id="victories">
-        <h2>Наши победы</h2>
-        <ul>
-            <li><strong>Международная выставка собак 2020</strong> - 1 место в номинации "Лучший корги"</li>
-            <li><strong>Национальный конкурс питомников 2021</strong> - Приз за лучшую программу разведения</li>
-            <li><strong>Региональная выставка собак 2023</strong> - 2 место среди пастушьих пород</li>
-        </ul>
-    </section>
-
-
-    <section id="partners">
-        <h2>Наши партнеры, которым мы доверяем</h2>
-        <p>Мы работаем только с проверенными партнерами, которые разделяют наши принципы заботы о животных и качественного обслуживания клиентов.</p>
-        <ul>
-            <li>
-                <strong>Зоомагазин "Четыре Лапы"</strong> - сеть магазинов для животных, где вы найдете всё необходимое для ухода за корги. <a href="https://4lapy.ru" target="_blank">Посетить сайт</a>
-            </li>
-            <li>
-                <strong>Клиника ветеринарии "ВетМед"</strong> - ветеринарная клиника, с которой мы сотрудничаем более 5 лет, обеспечивая здоровье наших питомцев. <a href="https://vetmed.ru" target="_blank">Посетить сайт</a>
-            </li>
-            <li>
-                <strong>Фонд помощи животным "Доброе Сердце"</strong> - благотворительный фонд, поддерживающий животных в сложных жизненных ситуациях. Мы регулярно сотрудничаем с ними в рамках благотворительных акций. <a href="https://dobroeserdo.ru" target="_blank">Посетить сайт</a>
-            </li>
-        </ul>
-    </section>
-
-    <section id="available-puppies">
-        <h2>Свободные щенки</h2>
-        <article>
-            <button onclick="alert('Щенок Снуппи забронирован!')">Забронировать</button>
-            <img src="img1/cute_small_corgi.jpg" alt="Щенок корги по кличке Снуппи" width="300" height="200">
-            <h3>Корги по кличке Снуппи</h3>
-            <p>Возраст: 3 месяца</p>
-            <p>Описание: Активный и дружелюбный щенок, любит играть с детьми и другими животными. Привит и готов к переезду в новый дом.</p>
-            <p>Цена: 40 000 руб.</p>
-        </article>
-        <article>
-            <button onclick="alert('Щенок Рокки забронирован!')">Забронировать</button>
-            <img src="img1/img.png" alt="Щенок корги по кличке Рокки" width="300" height="200">
-            <h3>Корги по кличке Рокки</h3>
-            <p>Возраст: 4 месяца</p>
-            <p>Описание: Очень умный и послушный щенок с хорошими выставочными перспективами. Прекрасно ладит с детьми и взрослыми.</p>
-            <p>Цена: 45 000 руб.</p>
-        </article>
-        <article>
-            <button onclick="alert('Щенок Лаки забронирован!')" >Забронировать</button>
-            <img src="img1/anothet_one_cute_corgi.jpg" alt="Щенок корги по кличке Лаки" width="300">
-            <h3>Корги по кличке Лаки</h3>
-            <p>Возраст: 2 месяца</p>
-            <p>Описание: Веселый и жизнерадостный щенок, с отличным характером. Подходит для активной семьи.</p>
-            <p>Цена: 38 000 руб.</p>
-        </article>
-    </section>
-
-    <section id="contact">
-        <h2>Контакты</h2>
-        <address>
-            Телефон: <a href="tel:+71234567890">+7 (123) 456-78-90</a><br>
-            Email: <a href="mailto:corgishop@example.com">corgishop@example.com</a><br>
-            Адрес: Москва, ул. Лапушкина, д.5
-        </address>
-    </section>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Navigation -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
 </main>
 
 <footer>
     <p>&copy; 2024 Магазин корги. Все права защищены.</p>
-    <p><em> Формула успеха: Любовь + Забота = Здоровый и счастливый корги!</em></p>
+    <p><em>Формула успеха: Любовь + Забота = Здоровый и счастливый корги!</em></p>
 </footer>
 </body>
 </html>
